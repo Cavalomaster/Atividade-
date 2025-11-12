@@ -1,0 +1,16 @@
+def texto_para_binario(texto):
+    return ' '.join(f"{ord(c):08b}" for c in texto)
+
+def main():
+    letra = input("Digite uma letra: ").strip().lower()
+    palavras = input("Digite palavras separadas por espaço: ").split()
+
+    print(f"\nPalavras que começam com '{letra}':\n")
+
+    for palavra in palavras:
+        if palavra.lower().startswith(letra):
+            bin_palavra = texto_para_binario(palavra)
+            print(f"Palavra: {palavra} | Binário: {bin_palavra}")
+
+if __name__ == "__main__":
+    main()
