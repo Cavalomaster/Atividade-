@@ -1,19 +1,18 @@
-# 🧠 Conversor de Texto para Binário — Python
+# Conversor de Texto para Binário — Python
 
 Este projeto é um programa simples em **Python** que solicita uma letra e uma lista de palavras, filtra as que começam com essa letra e converte cada uma delas para sua **representação binária** (8 bits por caractere).
 
 ---
 
-## 📋 Funcionalidades
-✅ Recebe uma letra digitada pelo usuário.  
-✅ Recebe várias palavras separadas por espaço.  
-✅ Filtra apenas as palavras que começam com a letra informada.  
-✅ Converte cada palavra para código binário (usando o código Unicode de cada caractere).  
-✅ Mostra o resultado no terminal.
+## Funcionalidades
+ Recebe uma letra digitada pelo usuário.  
+Recebe várias palavras separadas por espaço.  
+Filtra apenas as palavras que começam com a letra informada.  
+ Converte cada palavra para código binário (usando o código Unicode de cada caractere).  
+ Mostra o resultado no terminal.
 
----
 
-## 🧩 Código completo
+ Código completo
 
 ```python
 def texto_para_binario(texto):
@@ -36,9 +35,9 @@ if __name__ == "__main__":
 
 ---
 
-## 🪜 Passo a passo — Como executar o código
+Passo a passo — Como executar o código
 
-### 1. Instale o Python
+instale o Python
 Verifique se o Python está instalado:
 ```bash
 python --version
@@ -58,9 +57,7 @@ ou, em alguns sistemas:
 python3 conversor.py
 ```
 
----
-
-## 🧠 Exemplo de uso
+ Exemplo de uso
 
 **Entrada:**
 ```
@@ -79,7 +76,7 @@ Palavra: cachorro | Binário: 01100011 01100001 01100011 01101000 01101111 01110
 
 ---
 
-## 🧠 Explicação do código
+Explicação do código
 
 - **`texto_para_binario()`** → Converte cada caractere do texto em binário com 8 bits.  
   - `ord(c)` retorna o valor numérico (Unicode) do caractere.  
@@ -95,7 +92,7 @@ Palavra: cachorro | Binário: 01100011 01100001 01100011 01101000 01101111 01110
 
 ---
 
-## 💡 Sugestões de melhoria
+Sugestões de melhoria
 - Salvar a saída em um arquivo `.txt`.
 - Criar uma versão com interface gráfica (Tkinter).
 - Adicionar tratamento de erros para entrada vazia.
